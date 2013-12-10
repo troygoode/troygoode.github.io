@@ -9,4 +9,10 @@ Hyde is also rather forward-thinking in that—in addition to Chrome, Safari, an
 
 Find out more and [download a copy](https://github.com/mdo/hyde) today from GitHub.
 
+```javascript
+function example() {
+  console.log("This is an example of some source code.");
+}
+```
+
 Thanks!
