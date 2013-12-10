@@ -1,10 +1,10 @@
-title:        Hyde
-tagline:      "Hyde, a Jekyll theme"
-url:          http://andhyde.com
+title:        Lanetix
+tagline:      "Lanetix Product Development Blog"
+url:          http://lanetix.github.io
 author:
-  name:       ""
-  email:      ""
-markdown:     rdiscount
+  name:       "Lanetix"
+  email:      "info@lanetix.com"
+markdown:     redcarpet
 permalink:    pretty
 pygments:     true
 paginate:     5

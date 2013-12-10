@@ -187,8 +187,8 @@ a:hover {
 
 /* Header */
 .masthead {
-  color: #fff;
-  background-color: #2a2a2a;
+  color: #484848;
+  background-color: #5ac630;
 }
 .masthead-inner {
   padding: 20px;
@@ -201,13 +201,13 @@ a:hover {
   margin-bottom: 0;
 }
 .masthead a {
-  color: #fff;
+  color: #484848;
 }
 
 /* Footer area of masthead */
 .colophon {
   margin-top: 20px;
-  color: #7a7a7a;
+  color: #484848;
 }
 .colophon-links {
   padding-left: 0;
@@ -333,12 +333,14 @@ a:hover {
     width: 25%;
     margin-bottom: 0;
   }
+  /*
   .masthead-inner {
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
   }
+  */
   .masthead h1 {
     font-size: 64px;
   }
