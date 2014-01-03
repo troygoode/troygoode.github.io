@@ -7,5 +7,5 @@ author:
 markdown:  redcarpet
 permalink: pretty
 pygments:  true
-paginate:  5
+paginate:  1
 exclude:   ['ARCHIVE']
