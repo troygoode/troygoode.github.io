@@ -41,6 +41,6 @@ I began to wonder if this was not supported by the MVC framework, but I took a l
 
 To test what was going on, I commented out the reference in the Page_Load method, added a string declaration and put a breakpoint on it. When I ran the MVC application in debug mode and loaded the page I was able to see the "myLiteral" control reference. It appears that the reference is available at runtime but Visual Studio just is not able to see it at compile time. Odd. 
 
-![IMAGE](/custom/files/DebugMyLiteral.jpg)
+![IMAGE](/custom/files/old/DebugMyLiteral.jpg)
 
 For now I've told the developer to just use in-line code, but I'm well aware that many developers are loathe to do so. Thoughts? Suggestions?

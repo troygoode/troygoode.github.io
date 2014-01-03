@@ -17,4 +17,4 @@ If you want to run the project, make sure you have SQL Server Express installed 
 
 Be sure to let me know if there are any questions or comments about tonight's presentation or this post's code!
 
-[MvcTutorial-Blog.zip](/custom/files/MvcTutorial-Blog.zip)
+[MvcTutorial-Blog.zip](/custom/files/old/MvcTutorial-Blog.zip)

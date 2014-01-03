@@ -36,7 +36,7 @@ Here is the action I have created:
 
 And here is what this action will output without any fiddling:
 
-![IMAGE](/custom/files/Unhacked_2.jpg)
+![IMAGE](/custom/files/old/Unhacked_2.jpg)
 
 Now I'll tweak the Url a bit:
 
@@ -52,7 +52,7 @@ http://localhost:63260/Home/Test?REMOTE_ADDR=Any.IP.I.Want&LOGON_USER=YourDomain
 
 And voil&agrave;, mischief achieved:
 
-![IMAGE](/custom/files/TotallyHaxxored_2.jpg)
+![IMAGE](/custom/files/old/TotallyHaxxored_2.jpg)
 
 Now I'm no Kevin Mitnick, but I can assure you that if I can come up with something like this in an hour or so, a dedicated hacker that is probably far smarter than I will likely give you a lot of heartache if you make use of this feature. Have any "developer mode checks" that check for 127.0.0.1 or localhost? Have any filters to try and prevent GETs on certain actions? Relying on server variables passed in to your actions would make those scenarios (and many others) unwise. Just say no.
 

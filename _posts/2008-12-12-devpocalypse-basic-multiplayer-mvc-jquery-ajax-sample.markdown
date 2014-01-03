@@ -12,7 +12,7 @@ The basic idea of the game is that multiple players can exist on a grid (a "scre
 
 Let's take a gander at what the app looks like when it is running:
 
-![IMAGE](/custom/files/DevPocalypse-Screenshot_2.jpg)
+![IMAGE](/custom/files/old/DevPocalypse-Screenshot_2.jpg)
 
 Yup, like I said: basic. So those two little guys are players. You can't see it in a screenshot, but when you click a square next to where *your* player is standing, jQuery will smoothly animate the transition of your character from the current block to the new block. What is even neater is that when a player on a different computer moves *their* player, you also see the same jQuery animation execute. How are we doing this? Well first we use a simple polling script (from Game.js):
 
@@ -30,4 +30,4 @@ Gotta love jQuery. :-) There is plenty more to look at in the source, so feel fr
 
 Thanks, and I hope to see you at the next CodeCamp!
 
-[DevPocalypse.zip](/custom/files/DevPocalypse.zip)
+[DevPocalypse.zip](/custom/files/old/DevPocalypse.zip)

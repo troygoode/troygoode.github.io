@@ -5,7 +5,7 @@ sharing: false
 excerpt: I will be speaking at the NoVa CodeCamp on December 6, 2012.
 ---
 
-![IMAGE](/custom/files/NoVaCodeCamp.gif)
+![IMAGE](/custom/files/old/NoVaCodeCamp.gif)
 
 [Jeff Schoolcraft](http://thequeue.net/blog/) was kind enough to ask me to speak at this year's second [NoVa CodeCamp](http://novacodecamp.org/). It is being held in two weeks on Saturday, December 6th at the Microsoft Technology Center in Reston, VA [[map](http://maps.google.com/maps?f=q&hl=en&geocode=&q=12012+Sunset+Hills+Rd.++Reston,+VA+20190&sll=37.0625,-95.677068&sspn=51.089971,79.101563&ie=UTF8&z=16&g=12012+Sunset+Hills+Rd.++Reston,+VA+20190&iwloc=addr)]. If you're interested in attending, please make sure you [register](https://www.clicktoattend.com/invitation.aspx?code=131469) soon!
 

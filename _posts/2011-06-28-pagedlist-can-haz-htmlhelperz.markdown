@@ -29,7 +29,7 @@ The first package contains the core PagedList library, which allows you to do th
 
 The second package contains the new HTML Helper which lets you render pagers that look like this:
 
-![IMAGE](/custom/files/DefaultPagingControlStyles.png)
+![IMAGE](/custom/files/old/DefaultPagingControlStyles.png)
 
 *Note: All elements rendered by the HTML Helper have CSS classes applied to allow you to easily modify styling.*
 
