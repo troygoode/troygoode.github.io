@@ -1,3 +1,53 @@
-.masthead {
+.sidebar {
   background-color: #2d3339;
+}
+
+.sidebar-about h1 {
+  font-size: 2.25rem;
+}
+
+.sidebar-sticky {
+  top: 3.5rem;
+}
+
+
+.social {
+  text-align: center;
+}
+.social a {
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  zoom: 1;
+  *display: inline;
+  text-indent: -9999px;
+  margin: 0 15px 15px 0;
+  width: 28px;
+  height: 28px;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.social a.twitter {
+  background: url('/custom/images/twitter.png') center no-repeat #55cff8;
+  border: 1px solid #55CFF8;
+}
+.social a.github {
+  background: url('/custom/images/github.png') center no-repeat #afb6ca;
+  border: 1px solid #afb6ca;
+}
+.social a.rss {
+  background: url('/custom/images/rss.png') center no-repeat #ef7522;
+  border: 1px solid #EF7522;
+}
+
+.content {
+  padding-top: 3.85rem;
 }
