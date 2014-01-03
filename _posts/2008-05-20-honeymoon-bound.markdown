@@ -10,5 +10,5 @@ I know, I know... I haven't been blogging much recently, but don't think that yo
 
 I've been meaning to post my Visual Studio & ReSharper settings for a while, primarily so I have one central place to download the settings from when I set up a new machine at home or work. Feel free to ignore the files I've posted below, or try them out to see my modified dark color scheme! 
 
-{% postdownload VS2008.vssettings %}
-{% postdownload Resharper4Settings.xml %}
+[VS2008.vssettings](/custom/files/VS2008.vssettings)
+[Resharper4Settings.xml](/custom/files/Resharper4Settings.xml)

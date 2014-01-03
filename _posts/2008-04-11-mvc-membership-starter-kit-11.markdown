@@ -20,7 +20,7 @@ Mads Kristensen [released a lightweight OpenID consumer](http://blog.madskristen
 
 Out of the box you can create a route to the OpenIDLogin action, which displays the following view:
 
-{% postimg OpenID_2.jpg %}
+![IMAGE](/custom/files/OpenID_2.jpg)
 
 Once the user has entered their OpenID url, the starter kit will take care of the rest for you, with one critical exception: you have to map the url to a user in your membership database. To do so, you simple override a virtual method and return a MembershipUser, like so:
 
@@ -32,15 +32,15 @@ Note that the above implementation maps the OpenID url to a user's UserName, whi
 
 Maarten did a great job providing users with a way to manage their passwords. While logged in they can change their password:
 
-{% postimg ChangePassword_2.jpg %}
+![IMAGE](/custom/files/ChangePassword_2.jpg)
 
 Or if they are having trouble logging in, they can submit their username...
 
-{% postimg ForgotPassword_2.jpg %}
+![IMAGE](/custom/files/ForgotPassword_2.jpg)
 
 ...and then answer their password question (if the system is configured to require it)...
 
-{% postimg PasswordQuestion_2.jpg %}
+![IMAGE](/custom/files/PasswordQuestion_2.jpg)
 
 ...and they will then receive their password via email (or a newly generated password -- depending on system configuration).
 
@@ -50,7 +50,7 @@ All non-administrative forms now include basic client-side validation. The valid
 
 For instance, by default the ASP.Net Membership provider requires passwords to contain at least 1 non-alphanumeric character. If a user entered a password of "password" they would see the following alert:
 
-{% postimg ClientSideValidation_2.jpg %}
+![IMAGE](/custom/files/ClientSideValidation_2.jpg)
 
 ### Components: Login & LoginStatus
 

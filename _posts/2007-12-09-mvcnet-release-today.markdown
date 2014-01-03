@@ -7,7 +7,7 @@ sharing: false
 
 Scott Guthrie posted a comment to his [fourth entry in his ASP.Net MVC tutorial series](http://weblogs.asp.net/scottgu/archive/2007/12/09/asp-net-mvc-framework-part-4-handling-form-edit-and-post-scenarios.aspx#5425465) stating: 
 
-{% blockquote @scottgu http://weblogs.asp.net/scottgu/archive/2007/12/09/asp-net-mvc-framework-part-4-handling-form-edit-and-post-scenarios.aspx#5425465 %}
+<blockquote>
 Sunday, December 09, 2007 8:00 AM by ScottGu
 Hi Panjkov,
 
@@ -18,7 +18,7 @@ No - that is for the ADO.NET entities bits (which is something different).  Keep
 Thanks,
 
 Scott
-{% endblockquote %}
+</blockquote>
 
 This is great news and rather unexpected. Time to hit up [www.asp.net](http://www.asp.net) and F5 F5 F5...! 
 

@@ -58,10 +58,10 @@ So now that we've had a chance to see the code involved the question comes down 
 
 And the results...
 
-{% postimg Spearman-JavelinThrower-Tests-Passed.PNG %}
+![IMAGE](/custom/files/Spearman-JavelinThrower-Tests-Passed.PNG)
 
 Yay!
 
 So that is the road I went down, but what I really want to know is how would *you *solve this problem? If you'd like to take a deeper look at my code, download it and give it a try yourself:
 
-{% postdownload EverlandStatePattern.zip %}
+[EverlandStatePattern.zip](/custom/files/EverlandStatePattern.zip)

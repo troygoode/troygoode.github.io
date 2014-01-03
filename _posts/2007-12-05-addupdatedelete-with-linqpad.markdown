@@ -10,11 +10,11 @@ excerpt: A quick tutorial on using LINQPad - a query tool that understands LINQ.
 
 **C# Expressions vs. C# Statements:** By default LINQPad opens in "C# Expression" mode. In this mode you can type a simple query like "from r in Regions select r" and run it to see the results. As far as I can tell there is no way to insert/update/delete data in this mode. By switching to "C# Statement(s)" mode you are able to declare variables, control flow statements, and reference objects; this is the mode you need to be in to insert/update/delete data. To enter "C# Statement(s)" mode, select it from the "Type" drop-down box at the top of the window as show below: 
 
-{% postimg LINQPad_2.jpg %}
+![IMAGE](/custom/files/LINQPad_2.jpg)
 
 **object.Dump():** When you write a query in "C# Expression" mode the result of that query is automatically rendered to the Results frame (shown below). Because "C# Statement(s)" mode gives you the capability to run many queries in one execute, displaying the results of those queries must be manually invoked. To do so simply call the ".Dump()" method on the resultset of the query you want to display. ".Dump()" is implemented as an extension method available on all objects, so whether you are retrieving a single object, a list of objects, or an anonymous type the Dump method will be available to display your data. 
 
-{% postimg LINQPad-Results_2.jpg %}
+![IMAGE](/custom/files/LINQPad-Results_2.jpg)
 
 Below I have included examples of several ways to query data, as well as an example each for inserting, updating, and deleting data. 
 

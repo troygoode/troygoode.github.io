@@ -15,22 +15,22 @@ Once Visual Studio has finished installing, download and install the [ASP.NET MV
 
 If you encounter any difficulties with the installer, check out this [blog post by Jacques Eloff](http://weblogs.asp.net/jacqueseloff/archive/2009/06/09/troubleshooting-the-mvc-installer-for-visual-studio-2010-beta-1.aspx). He developed the installer and hopefully his post can help you out. Luckily for me everything proceeded with no problems. Booting up Visual Studio 2010 Beta 1 for the first time, I was presented with the new start screen:
 
-{% postimg 1-vs2010-first-boot-1024x736.jpg %}
-{% postimg 2-creating-mvc-project-150x150.jpg %}
+![IMAGE](/custom/files/1-vs2010-first-boot-1024x736.jpg)
+![IMAGE](/custom/files/2-creating-mvc-project-150x150.jpg)
 
 From here, you can launch the new New Project dialog either via the File menu or by clicking "Projects" on the left side of the startup screen and then clicking the "New Project" icon. If the Asp.Net MVC 1.1 installer has been correctly installed, you will find a "ASP.NET MVC Web Application" entry under the "Web" category in the New Project dialog. Fiddle with the Name, Location, and Solution Name as always and then click OK to create your application.
 
-{% postimg 3-create-test-project-150x150.jpg %}
+![IMAGE](/custom/files/3-create-test-project-150x150.jpg)
 
 After clicking OK, we would expect to be presented with the dialog that asks us if we want to create a test project for our new MVC application and indeed it does appear. MSTest is listed by default as always and was the only option available to me even though I do have MBUnit and xUnit.net showing up in this dialog in VS2008. If anyone knows an easy way to get the other test frameworks working with this dialog, please leave a comment or drop me an email. To me this isn't a big deal, as I prefer to setup my test projects manually and don't see a lot of value in the dialog, but I'm sure some people prefer to use it. For the sake of expediency I went and ahead and let Visual Studio create an MSTest project (better than nothing, right? maybe?) and proceeded into the project and opened up a view only to hit my next stumbling block...
 
-{% postimg 4-project-created-1024x736.jpg %}
+![IMAGE](/custom/files/4-project-created-1024x736.jpg)
 
 The culprit here is that in Visual Studio 2008 I use a dark theme based off the Vibrant Ink-ish theme [Rob Conery posted a long time ago](http://blog.wekeroad.com/blog/textmate-theme-for-visual-studio-take-2/). Evidently the upgrade process was able to transfer over most of my foreground preferences but none of my background preferences. This left me with light text on a white background. A quick hop skip & a jump through "Tools" &gt; "Import and Export Settings..." allowed me to import the defaults, thus making my color scheme readable, if a bit too vanilla.
 
 Now that my application is loaded up and legible, I decided I would make a couple small changes to the application and take some of the old (and new) features for a test drive to see how they did. First I tried out controller scaffolding: right-click on the MVC application's Controllers folder and select "Add &gt; Controller...". That worked fine and was able to generate the CRUD scaffolding I requested. Next I tried automatic view generation: right-click anywhere inside of an action and select "Add View...". I was pleased to find that neither of these features had been lost and were working as expected.
 
-{% postimg 9-choosing-actionlink-snippet-300x206.jpg %}
+![IMAGE](/custom/files/9-choosing-actionlink-snippet-300x206.jpg)
 
 So now I've created a ProductController with various actions as well as a basic view for the controller's Index action, but I don't have any way to navigate to that action except typing the URL in by hand. Thinking this might be a good time to try out the new snippets, I opened up the Site.Master view and added a new &lt;li&gt;&lt;/li&gt; to the navigation element. Having not really used snippets much before, I was temporarily lost as I expected to find them in the Toolbox (were they not in there at one point?). Luckily they were even easier to find than that, all I had to do was right-click. *(On a side note, this makes it much more likely that I'll use them - the quickest way to get me to not use a Visual Studio feature is to make me deal with the horribly slow loading toolbar).* The context-menu inside of views has an "Insert Snippet..." entry that, once selected, will give you three options:Â  ASP.NET, HTML, and My HTML Snippets. The snippets we installed earlier were placed in our user folder, which means Visual Studio will automatically detect them and load them in to the "My HTML Snippets" folder. Selecting that folder presents you with a list of many basic HTML helper snippets.
 

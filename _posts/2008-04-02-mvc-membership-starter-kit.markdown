@@ -29,47 +29,47 @@ Okay, enough wall o'text. Let's take a look at some screenshots:
 
 Here is the menu when you first log in:
 
-{% postimg Menu-LoggedOut_2.jpg %}
+![IMAGE](/custom/files/Menu-LoggedOut_2.jpg)
 
 The registration page:
 
-{% postimg Registration_4.jpg %}
+![IMAGE](/custom/files/Registration_4.jpg)
 
 The login page (note that the Administrator's credentials are displayed to make it easy to get started, you'll obviously want to change them and remove that note):
 
-{% postimg Login_2.jpg %}
+![IMAGE](/custom/files/Login_2.jpg)
 
 Having logged in, here is what the menu looks like now:
 
-{% postimg Menu-LoggedIn_2.jpg %}
+![IMAGE](/custom/files/Menu-LoggedIn_2.jpg)
 
 The current options upon clicking the Security tab:
 
-{% postimg Security_2.jpg %}
+![IMAGE](/custom/files/Security_2.jpg)
 
 Clicking "Manage Users" brings you to a list of all users currently registered:
 
-{% postimg ManageUsers_2.jpg %}
+![IMAGE](/custom/files/ManageUsers_2.jpg)
 
 Clicking on the user takes you to a form that allows you to view their details and edit a few aspects of their profile...
 
-{% postimg User-Top_2.jpg %}
+![IMAGE](/custom/files/User-Top_2.jpg)
 
 as well as view/change the roles they are in and help with password issues:
 
-{% postimg User-Bottom_2.jpg %}
+![IMAGE](/custom/files/User-Bottom_2.jpg)
 
 From the Security tab you can also go to a list of all the system's roles, from which you can add/delete roles as you need:
 
-{% postimg Roles_2.jpg %}
+![IMAGE](/custom/files/Roles_2.jpg)
 
 Clicking on a role from the roles list or the user profile allows you to view/modify the users in that role:
 
-{% postimg UsersInRole_2.jpg %}
+![IMAGE](/custom/files/UsersInRole_2.jpg)
 
 And finally, the Security tab offers a link to another registration form, geared toward Administrators:
 
-{% postimg CreateUser_2.jpg %}
+![IMAGE](/custom/files/CreateUser_2.jpg)
 
 ## NSFAQ (Not-So Frequently Asked Questions)
 

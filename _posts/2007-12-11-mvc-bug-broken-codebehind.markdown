@@ -11,7 +11,7 @@ sharing: false
 
 **Update (Dec 11):** ScottGu was kind enough to [post a fix for this particular problem](#comment-152106388). It is unfortunate that you have to repeat the fix for every view you add to your project, but I guess that's why it is called a CTP! ScottGu said... 
 
-{% blockquote @scottgu %}
+<blockquote>
 There is a bug in the file template when you create a new page - and the .designer.cs file isn't generated.
 	
 To fix this, right click on the file and choose the "Convert to Web Application" menu item. This will generate the .designer.cs file that contains your control declarations. From that point on the code-behind will be kept up to date as you make changes.
@@ -19,7 +19,7 @@ To fix this, right click on the file and choose the "Convert to Web Application"
 Hope this helps,
 
 Scott
-{% endblockquote %}
+</blockquote>
 
 **Original Post:**
 
@@ -41,6 +41,6 @@ I began to wonder if this was not supported by the MVC framework, but I took a l
 
 To test what was going on, I commented out the reference in the Page_Load method, added a string declaration and put a breakpoint on it. When I ran the MVC application in debug mode and loaded the page I was able to see the "myLiteral" control reference. It appears that the reference is available at runtime but Visual Studio just is not able to see it at compile time. Odd. 
 
-{% postimg DebugMyLiteral.jpg %}
+![IMAGE](/custom/files/DebugMyLiteral.jpg)
 
 For now I've told the developer to just use in-line code, but I'm well aware that many developers are loathe to do so. Thoughts? Suggestions?

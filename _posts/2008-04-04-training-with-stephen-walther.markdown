@@ -20,7 +20,7 @@ Stephen is a successful author, having literally "written the book" on ASP.Net (
 
 You can buy Stephen's book from Amazon here:
 
-[{% postimg AspNet35UnleashedCover.jpeg %}](http://www.amazon.com/gp/product/0672330113)
+[![IMAGE](/custom/files/AspNet35UnleashedCover.jpeg)](http://www.amazon.com/gp/product/0672330113)
 
 We all found Stephen to be very personable and he obviously has an excellent command on the language and tools available in the .Net ecosystem. Also, anyone that can put up with my constant interruptions and derails for four days in a windowless classroom is clearly a pro. =)
 

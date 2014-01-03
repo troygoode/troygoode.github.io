@@ -12,8 +12,10 @@ Back in March I made some modifications to the [PagedList library](http://github
 
 You can install via Nuget:
 
-{% cmdline <a href="http://nuget.org/packages/PagedList">PM&gt; Install-Package PagedList</a> %}
-{% cmdline <a href="http://nuget.org/packages/PagedList.Mvc">PM&gt; Install-Package PagedList.Mvc</a> %}
+```bash
+Install-Package PagedList
+Install-Package PagedList.Mvc
+```
 
 Alternatively, [download the source](https://github.com/TroyGoode/PagedList) straight from GitHub.
 
@@ -27,7 +29,7 @@ The first package contains the core PagedList library, which allows you to do th
 
 The second package contains the new HTML Helper which lets you render pagers that look like this:
 
-{% postimg DefaultPagingControlStyles.png %}
+![IMAGE](/custom/files/DefaultPagingControlStyles.png)
 
 *Note: All elements rendered by the HTML Helper have CSS classes applied to allow you to easily modify styling.*
 

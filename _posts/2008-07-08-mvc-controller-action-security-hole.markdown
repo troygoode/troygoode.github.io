@@ -9,7 +9,7 @@ The latest of [Stephen Walther](http://weblogs.asp.net/stephenwalther/)'s invalu
 
 I'll let Francois' comment explain the problem (emphasis mine):
 
-{% blockquote %}
+<blockquote>
 Tuesday, July 08, 2008 4:16 PM by Francois Ward
 
 Hmm, I didn't look into it much, but is that -safe-? I mean, if the variables in the index function are filled up automatically... it would be ok if it was only one type (all cookies, or all server variables), but since you can mix and match, **whats to present me from forging a request with a cookie with the same name as the server variables**?
@@ -17,7 +17,7 @@ Hmm, I didn't look into it much, but is that -safe-? I mean, if the variables in
 I mean, it is already possible to forge anything client-related, for obvious reason... but **forging info that potentially come from the server**? That seems...awkward...
 
 (again, keep in mind this is just my first reaction, maybe if I think it through I'll realize what I just said is totally stupid :) )
-{% endblockquote %}
+</blockquote>
 
 Like Francois said, cookies are easily forged client-side anyway, but most developers tend to rely on the [truthiness](http://en.wikipedia.org/wiki/Truthiness) of our server variables, specifically those that don't come over in the HTTP request. Let me demonstrate how the issue plays out.
 
@@ -36,11 +36,11 @@ Here is the action I have created:
 
 And here is what this action will output without any fiddling:
 
-{% postimg Unhacked_2.jpg %}
+![IMAGE](/custom/files/Unhacked_2.jpg)
 
 Now I'll tweak the Url a bit:
 
-{% blockquote %}
+<blockquote>
 First Url:
 
 http://localhost:63260/Home/Test
@@ -48,11 +48,11 @@ http://localhost:63260/Home/Test
 Second Url:
 
 http://localhost:63260/Home/Test?REMOTE_ADDR=Any.IP.I.Want&LOGON_USER=YourDomainAdministrator&REQUEST_METHOD=POST&SERVER_NAME=microsoft.com
-{% endblockquote %}
+</blockquote>
 
 And voil&agrave;, mischief achieved:
 
-{% postimg TotallyHaxxored_2.jpg %}
+![IMAGE](/custom/files/TotallyHaxxored_2.jpg)
 
 Now I'm no Kevin Mitnick, but I can assure you that if I can come up with something like this in an hour or so, a dedicated hacker that is probably far smarter than I will likely give you a lot of heartache if you make use of this feature. Have any "developer mode checks" that check for 127.0.0.1 or localhost? Have any filters to try and prevent GETs on certain actions? Relying on server variables passed in to your actions would make those scenarios (and many others) unwise. Just say no.
 

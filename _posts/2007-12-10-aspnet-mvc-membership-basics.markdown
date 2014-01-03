@@ -41,7 +41,7 @@ That's it! You should now have a working registration/login system. I'll leave m
 
 I have included all of the code samples above in the below ZIP file. Just unzip it and place the controller into the Controllers directory, the views into the Views/Security directory (which you will have to create), and copy the code from Routes.txt to the appropriate area of your Global.asax.
 
-{% postdownload MVCMembership_v1.2.zip %}
+[MVCMembership_v1.2.zip](/custom/files/MVCMembership_v1.2.zip)
 
 <a name="update-dec-11"></a>
 **UPDATE (Dec 11):** Johan and [Steve Harman](http://stevenharman.net/) were kind enough to [point out](#comment-152106495) that I had foolishly set the "remember me" checkbox's label's "for" attribute to point to the password field instead of the checkbox itself. I have fixed the code above and provided a new zip file (1.1) for download. Thanks guys!

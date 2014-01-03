@@ -10,7 +10,7 @@ comments: false
 
 I'm sure I speak for almost all of us that are awaiting this highly anticipated release when I say that all of their hard work is appreciated and while the delay is disappointing, what is a few more days? The full text of Scott's comment is below: 
 
-{% blockquote @scottgu http://weblogs.asp.net/scottgu/archive/2007/12/06/asp-net-mvc-framework-part-3-passing-viewdata-from-controllers-to-views.aspx#5419863 %}
+<blockquote>
 
 Quick update to everyone - we found a last minute bug late last night, and had to-do a rebuild of the bits. This unfortunately means we won't go live today as originally planned. The team is working hard, though, to try and get it out ASAP (they will be here this weekend finishing the test pass).
 
@@ -19,4 +19,4 @@ I'll do a blog post announcing it as soon as it is live. As penance I'm also doi
 Many apologies for the delay - almost there now though,
 
 Scott
-{% endblockquote %}
+</blockquote>
