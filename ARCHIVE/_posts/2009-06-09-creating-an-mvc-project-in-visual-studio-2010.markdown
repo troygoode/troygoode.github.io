@@ -1,0 +1,39 @@
+--- 
+layout: post
+title: Creating an MVC Project in Visual Studio 2010
+excerpt: Visual Studio 2010's first beta is awesome, but getting it to work with ASP.NET MVC takes a bit of elbow grease. I'll walk you through it.
+sharing: false
+---
+
+<p class="warning">These instructions are not necessary with the RTM version of Visual Studio 2010 or later releases of Visual Studio.</p>
+
+Earlier today [Phil Haack announced](http://www.haacked.com/archive/2009/06/09/aspnetmvc-vs10beta1-roadmap.aspx) that the Asp.Net MVC installer for Visual Studio 2010 Beta 1 is [now available on CodePlex](http://aspnet.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=28527) along with the bonus of some basic snippets for use with MVC projects. This is exactly what I have been waiting for before installing Visual Studio 2010, so I decided to give it a shot and report back on my experience. I'm happy to say that the basic experience went flawlessly for me, though it appears [that may not hold true for everyone](http://weblogs.asp.net/jacqueseloff/archive/2009/06/09/troubleshooting-the-mvc-installer-for-visual-studio-2010-beta-1.aspx).
+
+The first (and by far the longest) step in getting everything up and running is to download and install the Visual Studio 2010 beta. There are multiple flavors available, but I settled for the plain old Professional edition. You can also choose between the [full install 2 ISO download (1.1 GB)](http://www.microsoft.com/downloadS/details.aspx?familyid=3296BB4F-D8BA-4CFD-AA95-A424C5913F6B&displaylang=en) or a [lightweight (5 MB) "web install" package](http://www.microsoft.com/downloadS/details.aspx?familyid=75CBCBCD-B0E8-40EA-ADAE-85714E8984E3&displaylang=en). I chose to try out the smaller package and it worked fine for me, though MSDN subscribers with slower connections may prefer to use the Microsoft download tool and download the bigger install so that they can pause and restart the download as needed. Either way, once you've downloaded everything grab a drink and kick off the install. On my relatively fast machine running Windows 7 it took close to half an hour to install and two (!) required restarts.
+
+Once Visual Studio has finished installing, download and install the [ASP.NET MVC 1.1 Installer for Visual Studio 2010 from CodePlex](http://aspnet.codeplex.com/Release/ProjectReleases.aspx?ReleaseId=28527). While you're there, go ahead and download and unzip ASP.NET MVC Snippets for VS2010 Beta 1. While Asp.Net MVC 1.1 is being installed, go ahead and install the snippets as well: unzip "ASP.NET MVC Snippets.zip" into "C:\Users\&lt;username&gt;\Documents\Visual Studio 10\Code Snippets\Visual Web Developer\My HTML Snippets", where "C:\" is your OS drive.
+
+If you encounter any difficulties with the installer, check out this [blog post by Jacques Eloff](http://weblogs.asp.net/jacqueseloff/archive/2009/06/09/troubleshooting-the-mvc-installer-for-visual-studio-2010-beta-1.aspx). He developed the installer and hopefully his post can help you out. Luckily for me everything proceeded with no problems. Booting up Visual Studio 2010 Beta 1 for the first time, I was presented with the new start screen:
+
+{% postimg 1-vs2010-first-boot-1024x736.jpg %}
+{% postimg 2-creating-mvc-project-150x150.jpg %}
+
+From here, you can launch the new New Project dialog either via the File menu or by clicking "Projects" on the left side of the startup screen and then clicking the "New Project" icon. If the Asp.Net MVC 1.1 installer has been correctly installed, you will find a "ASP.NET MVC Web Application" entry under the "Web" category in the New Project dialog. Fiddle with the Name, Location, and Solution Name as always and then click OK to create your application.
+
+{% postimg 3-create-test-project-150x150.jpg %}
+
+After clicking OK, we would expect to be presented with the dialog that asks us if we want to create a test project for our new MVC application and indeed it does appear. MSTest is listed by default as always and was the only option available to me even though I do have MBUnit and xUnit.net showing up in this dialog in VS2008. If anyone knows an easy way to get the other test frameworks working with this dialog, please leave a comment or drop me an email. To me this isn't a big deal, as I prefer to setup my test projects manually and don't see a lot of value in the dialog, but I'm sure some people prefer to use it. For the sake of expediency I went and ahead and let Visual Studio create an MSTest project (better than nothing, right? maybe?) and proceeded into the project and opened up a view only to hit my next stumbling block...
+
+{% postimg 4-project-created-1024x736.jpg %}
+
+The culprit here is that in Visual Studio 2008 I use a dark theme based off the Vibrant Ink-ish theme [Rob Conery posted a long time ago](http://blog.wekeroad.com/blog/textmate-theme-for-visual-studio-take-2/). Evidently the upgrade process was able to transfer over most of my foreground preferences but none of my background preferences. This left me with light text on a white background. A quick hop skip & a jump through "Tools" &gt; "Import and Export Settings..." allowed me to import the defaults, thus making my color scheme readable, if a bit too vanilla.
+
+Now that my application is loaded up and legible, I decided I would make a couple small changes to the application and take some of the old (and new) features for a test drive to see how they did. First I tried out controller scaffolding: right-click on the MVC application's Controllers folder and select "Add &gt; Controller...". That worked fine and was able to generate the CRUD scaffolding I requested. Next I tried automatic view generation: right-click anywhere inside of an action and select "Add View...". I was pleased to find that neither of these features had been lost and were working as expected.
+
+{% postimg 9-choosing-actionlink-snippet-300x206.jpg %}
+
+So now I've created a ProductController with various actions as well as a basic view for the controller's Index action, but I don't have any way to navigate to that action except typing the URL in by hand. Thinking this might be a good time to try out the new snippets, I opened up the Site.Master view and added a new &lt;li&gt;&lt;/li&gt; to the navigation element. Having not really used snippets much before, I was temporarily lost as I expected to find them in the Toolbox (were they not in there at one point?). Luckily they were even easier to find than that, all I had to do was right-click. *(On a side note, this makes it much more likely that I'll use them - the quickest way to get me to not use a Visual Studio feature is to make me deal with the horribly slow loading toolbar).* The context-menu inside of views has an "Insert Snippet..." entry that, once selected, will give you three options:Â  ASP.NET, HTML, and My HTML Snippets. The snippets we installed earlier were placed in our user folder, which means Visual Studio will automatically detect them and load them in to the "My HTML Snippets" folder. Selecting that folder presents you with a list of many basic HTML helper snippets.
+
+In this case I wanted to use the first one, actionlink, to create a new call to Html.ActionLink(...). Selecting it then inserted the Html helper text as I would expect, and highlighted the arguments for the link's text and action also as I would expect. I did notice that the snippet doesn't automatically insert a placeholder for specifying which controller the actionlink refers to and adding a comma after the last argument did not bring up the list of overloads for Html.ActionLink that I expected to see.
+
+With that done I hit F5 and was able to browse to my Product controller's Index action, confirming that Asp.Net MVC is indeed working fine with Visual Studio 2010. It looks like there are still some kinks to work out, but it is already close enough that I feel confident that Beta 2's integration should be quite good. 

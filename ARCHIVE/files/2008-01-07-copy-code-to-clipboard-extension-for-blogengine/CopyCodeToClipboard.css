@@ -1,0 +1,32 @@
+﻿.CopyToClipboard{
+	width: 458px;
+	text-align: right;
+	margin: 0 0 5px 0;
+}
+.CopyToClipboard div{
+	margin-left: 248px;
+	background-color: #A0410D;
+	padding: 0px 5px 2px 5px;
+	text-align: center;
+	color: #F1C969;
+	width: 200px;
+	font-size: 9px;
+}
+.CopyToClipboard a{
+}
+.CopyToClipboard a:link{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.CopyToClipboard a:visited{
+	text-decoration: none;
+	color: #f5f5f5;
+}
+.CopyToClipboard a:hover{
+	text-decoration: underline;
+	color: #f5f5f5;
+}
+.CopyToClipboard a:active{
+	text-decoration: underline;
+	color: #f5f5f5;
+}

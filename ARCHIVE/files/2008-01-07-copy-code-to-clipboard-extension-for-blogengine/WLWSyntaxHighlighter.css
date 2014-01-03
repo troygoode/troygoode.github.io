@@ -1,0 +1,66 @@
+﻿.csharpcode-wrapper, .csharpcode-wrapper pre {
+  clear: both;
+  background-color: #f5f5f5;
+  border: solid 2px #A0410D;
+  font-family: Consolas, 'Courier New', Courier, Monospace;
+  font-size: 8pt;
+  line-height: 12pt;
+  margin: 15px 0 0 0px;
+  max-height: 227px;
+  overflow: auto;
+  padding: 0px 0px 0px 0px;
+  width: 454px;
+}
+.csharpcode-wrapper pre {
+  border-style: none;
+  margin: 0px 0px 0px 0px;
+  overflow: visible;
+  padding: 0px 0px 0px 0px;
+}
+.csharpcode, .csharpcode pre, .csharpcode .alt {
+  background-color: #f5f5f5;
+  border-style: none;
+  color: black;
+  font-family: Consolas, 'Courier New', Courier, Monospace;
+  font-size: 8pt;
+  line-height: 12pt;
+  overflow: visible;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+.csharpcode pre {
+  margin: 0em;
+}
+.csharpcode .alt {
+  background-color: #f4f2df;
+}
+.csharpcode .asp {
+  background-color: #ffff00;
+}
+.csharpcode .attr {
+  color: #ff0000;
+}
+.csharpcode .cls {
+  color: #cc6633;
+}
+.csharpcode .html {
+  color: #800000;
+}
+.csharpcode .kwrd {
+  color: #0000ff;
+}
+.csharpcode .lnum {
+  color: #f1c969;
+}
+.csharpcode .op {
+  color: #0000c0;
+}
+.csharpcode .preproc {
+  color: #cc6633;
+}
+.csharpcode .rem {
+  color: #008000;
+}
+.csharpcode .str {
+  color: #006080;
+}

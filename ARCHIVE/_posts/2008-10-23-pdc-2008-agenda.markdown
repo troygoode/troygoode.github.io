@@ -1,0 +1,44 @@
+--- 
+layout: post
+title: My PDC 2008 Agenda
+excerpt: I'll be attending the 2008 Microsoft PDC this weekend. Who wants to meet up?
+---
+
+This Saturday I'll be headed off to sunny Los Angeles for Microsoft's [Professional Developer Conference 2008](http://microsoftpdc.com). This is the first time I've gone and I'm really looking forward to it. I'm staying at [Hotel Figeuroa](http://www.figueroahotel.com), only a couple blocks from the [Los Angeles Convention Center](http://www.lacclink.com), and I've posted my tentative session agenda (more for my own reference than anything else) below. If anyone else would like to meet up for drinks after the sessions, [drop me an email](mailto:troygoode@gmail.com).
+
+## Pre-Conference / Sunday Oct 26 2008
+
+* **10:00 AM - 5:45 PM:** [Creating Rich Internet Applications with Silverlight](http://microsoftpdc.com/Agenda/Preconference.aspx#creating-rich-internet-applications-with-silverlight)
+
+## Day One / Monday Oct 27 2008 
+
+* **8:30 AM - 11:00 AM:** Keynote
+* **11:00 AM - 12:45 AM:** [A Lap Around Cloud Services (Part 1)](http://channel9.msdn.com/pdc2008/ES16/)
+* **12:45 PM - 1:45 PM:** [Microsoft Expression Blend: Tips & Tricks](http://channel9.msdn.com/pdc2008/PC47/)
+* **1:45 PM - 3:30 PM:** [ASP.Net 4.0 Roadmap](http://channel9.msdn.com/pdc2008/PC20/)
+* **3:30 PM - 5:15 PM:** [A Lap Around Cloud Services (Part 2)](http://channel9.msdn.com/pdc2008/BB01/) *or* [ASP.NET MVC: A New Framework for Building Web Applications](http://channel9.msdn.com/pdc2008/PC21/)
+* **5:15 PM - 6:30 PM:** [Developing and Deploying Your First Cloud Service](http://channel9.msdn.com/pdc2008/ES01/) *or* [Microsoft .NET Framework: Overview and Applications for Babies](http://channel9.msdn.com/pdc2008/TL49/) *or* [Windows Workflow Foundation 4.0: A First Look](http://channel9.msdn.com/pdc2008/TL17/)
+
+## Day Two / Tuesday Oct 28 2008
+
+* **3:30 AM - 12:45 PM:** Keynote
+* **12:45 PM - 1:45 PM:** [Windows 7: Welcome to the Windows 7 Desktop](http://channel9.msdn.com/pdc2008/PC24/)
+* **1:45 PM - 3:30 PM:** [Essential Cloud Storage Services](http://channel9.msdn.com/pdc2008/ES04/)
+* **3:30 PM - 5:15 PM:** [Microsoft Visual Studio: Easing ASP.NET Web Deployment](http://channel9.msdn.com/pdc2008/PC33/)
+* **5:15 PM - 6:30 PM:** [Entity Framework Futures](http://channel9.msdn.com/pdc2008/TL20/) *or* [ASP.NET and JQuery](http://channel9.msdn.com/pdc2008/PC31/) *or* [Architecting Services for the Cloud](http://channel9.msdn.com/pdc2008/ES02/)
+
+## Day Three / Wednesday Oct 29 2008
+
+* **8:30 AM - 10:30 AM:** Keynote
+* **10:30 AM - 12:00 PM:** [WCF 4.0: Building WCF Services with WF in Microsoft .NET 4.0](http://channel9.msdn.com/pdc2008/TL06/)
+* **12:00 PM - 1:15 PM:** [Microsoft XNA Game Studio: An Overview](http://channel9.msdn.com/pdc2008/TL43/)
+* **1:15 PM - 3:00 PM:** ["Oslo": Customizing and Extending the Visual Design Experience](http://channel9.msdn.com/pdc2008/TL18/)
+* **3:00 PM - 4:45 PM:** [A Day in the Life of a Cloud Service Developer](http://channel9.msdn.com/pdc2008/ES03/) *or* [Oomph: A Microformat Toolkit](http://channel9.msdn.com/pdc2008/PC55/) *or* ["Oslo": Repository and Models](http://channel9.msdn.com/pdc2008/TL28/)
+* **4:45 PM - 6:00 PM:** [A Lap around "Oslo"](http://channel9.msdn.com/pdc2008/TL23-R/)
+
+## Day Four / Thursday Oct 30 2008
+
+* **8:30 AM - 10:15 AM:** [WCF: Developing RESTful Services](http://channel9.msdn.com/pdc2008/TL04/)
+* **10:15 AM - 12:00 PM:** [Services Symposium: Enterprise Grade Cloud Applications](http://channel9.msdn.com/pdc2008/SYMP05/)
+* **12:00 PM - 1:45 PM:** [Cloud Computing: Programming in the Cloud](http://channel9.msdn.com/pdc2008/ES17/)
+* **1:45 PM - 3:00 PM:** [ASP.NET AJAX Futures](http://channel9.msdn.com/pdc2008/PC32/) *or* [Workflow Services: Orchestrating Services and Business Processes Using Cloud-Based Workflow](http://channel9.msdn.com/pdc2008/BB27/)
