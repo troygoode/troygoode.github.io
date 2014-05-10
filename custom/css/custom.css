@@ -55,3 +55,16 @@ body {
 .content {
   padding-top: 3.85rem;
 }
+
+.twitter_cta {
+  text-align: center;
+  background-color: #4099ff;
+  color: #fff;
+  padding: 1em 1em .5em 1em;
+  border-radius: .25em;
+}
+.twitter_cta > a {
+  color: #fff;
+  margin: 0;
+}
+
