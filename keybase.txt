@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/troy
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://www.squaredroot.com
+  * I am troy (https://keybase.io/troy) on keybase.
+  * I have a public key with fingerprint 8917 81AC B1F8 0B7F 226B  8166 EA68 7C56 17DD 1FC0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.4.11"
+        },
+        "key": {
+            "fingerprint": "891781acb1f80b7f226b8166ea687c5617dd1fc0",
+            "host": "keybase.io",
+            "key_id": "EA687C5617DD1FC0",
+            "uid": "d1bf07ee1ff8936aa56d75a872dfec00",
+            "username": "troy"
+        },
+        "merkle_root": {
+            "ctime": 1405367748,
+            "hash": "57f8dffd317025642f306eec03b356678285f25d8c9fffdee04ce7800b9ab13b7da81bede3a6b10f35527e7d2b71412ee39ae34af9edefe8555995a7724aba00",
+            "seqno": 27592
+        },
+        "service": {
+            "hostname": "www.squaredroot.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1405367791,
+    "expire_in": 157680000,
+    "prev": "2e9edfb45661b0d6e856967b55b7438be695b9acd0258d807ca0fc3cbc955117",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFdkm1oHEUcxu9i09LQiNAWrcaSLhIQk8vM7s7LXisak/qGQTGhGlDXmZ3/XDYv
+t5u9vYsxxtJ+MIhYo1DFNgVFwZAWK4ixLX5ofS9VaD8UFJQqolUKrUUtEm3r7BHx
+5dvOzu//zPM8MzPNV+Sa8insmN79wfQz+WM/yVzfh+TcpCUjNWEVJ61gJIRymn2V
+xShYRWsYJqSoQCGMWsuRgsJQpXWJabdqkFTCqGwoVHALGFtT7RmfTeuwXIIkTsJM
+zOIeZhyLQGLNkWTatqnkmFIQlLOAUMyUwjpARnMwqqT/Odaqa/qhMn83dxm+O+N7
+evDt3RlfrW8oLDViAFhr7jlUCEIVI4IzW2kIUB2sQLKUKU2iiczrKCTDI+AnUVRP
+HKRhto1dRBzKmMuNG1EZNAOEaa60Vg5myCbUtbWDKBhhRzqEUsZtTrRNFA88bTAA
+5AbAOELSExI7kinBsQQFjqASI+0QYjNgypYMu9gGcDwBjiu0ZxgNnBDieUQwZrtC
+irr9CoyVI6toM+LZU9kyqYUBZLazxpaCjY+PFypjVZGAykIVgmjUjMZJlEZBNGKA
+wTSNi1n0dCKuD7wF0l/S8mVYVuba/n2x2KD/q8XD7RY8FocJ+GFGEEZNUISyc6Bm
+NG0wKbR0TTFYIkVNHOpRJgmRzHW4BOoR00ugTJVcccQCgXTgBDLwCMGY/RPWMT5F
+yUhWwlJZpNUErKmn8y3Lcvmm3PLGhuzl5ppWXvX3c/7x6hWXB4od/Qs3nWn+qLhr
+aM+KTS/88f7ixra55o5wSy1/pK3qvt496+/dsPjsxdP+NQcfOntDz63h1tam2dnn
+ev3LC5fixXe3nceda594cepk6cSaO8+99mU893HDwuTiwqEHLtYOfNd/c0f85/qN
+D36+5uWjl2orqw+jN77Zf+Oq+/p+Pl+NnwyWXyh27as+fvqOVeu27ZvpH5u/Nm75
+bfXd71kHdtx/vbpt19Dew2/v/H33Vy99O7js2PqnPpk//vyW67oaxHhL169f7N98
+FA983znaq6K57ZtuGaEDZzfsfKU23XdvW1/ujH/8yjeHf/js1Ufeabyrc+vJde33
+lHpXb+e/fPp1umem8dR80Hvh1KMn1v4F
+=ZrcY
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/troy
+
+==================================================================
